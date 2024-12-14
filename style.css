@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", serif;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #AE9EFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50vw;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header {
+    width: 46vw;
+    height: 7vh;
+    margin: 1vw 2vw 0 2vw;
+    display: flex;
+    gap: 0 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 25rem;
+    height: 2rem;
+    font-size: 15px;
+    padding: 2px 2px 2px 15px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ae9cff;
+}
+
+.search-btn {
+    width: 7em;
+    height: 2.3rem;
+    background-color: #ae9cff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+.title {
+    width: 88%;
+    height: 20px;
+    padding: 10px 6% 10px 6%;
+    margin: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.word {
+    font-size: 25px;
+}
+
+.volume {
+    font-size: 25px;
+}
+
+#audio {
+    width: 0px;
+    height: 0px;
+}
+
+.phonitics {
+    width: 94%;
+    height: 18px;
+    color: #75759d;
+    font-size: 14px;
+    line-height: 18px;
+    word-spacing: 15px;
+    padding: 2px 0 2px 6%;
+    margin: 3px 0 0 0;
+    display: none;
+}
+
+.words {
+    width: 94%;
+    min-height: 18px;
+    color: #75759d;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 0 2px 6%;
+    margin: 40px 0 0 0;
+    display: none;
+}
+
+.meaning {
+    width: 94%;
+    min-height: 18px;
+    color: #75759d;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px 0 8px 6%;
+    margin: 40px 0 0 0;
+    border-left: 4.5px solid #ae9cff;
+    display: none;
+}
